@@ -446,6 +446,13 @@ footer p {
     font-size: 0.7rem;
   }
 
+  .headr-1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 300px;
+  }
+
 }
 
 @media (min-width: 786px) {
@@ -470,6 +477,13 @@ footer p {
 
   .display__card p {
     font-size: 0.8rem;
+  }
+
+  .headr-1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 300px;
   }
 
 }
