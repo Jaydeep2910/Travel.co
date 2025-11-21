@@ -323,6 +323,19 @@ header .section__container {
   grid-area: 1/1/3/3;
 }
 
+.headr-1 {
+      height: 90vh;
+      background-image: linear-gradient(
+          rgba(45, 92, 132, 0.5),
+          rgba(45, 92, 132, 0.5)
+        ),
+        url("Images/contact-us-bg-1.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+    }
+
 footer {
   background-color: var(--text-dark);
   color: var(--secondary-color);
@@ -445,6 +458,12 @@ footer p {
   .display__card p {
     font-size: 0.7rem;
   }
+
+  .headr-1 {
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+  }
  
 }
 
@@ -472,6 +491,11 @@ footer p {
     font-size: 0.8rem;
   }
 
+  .headr-1 {
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+  }
 
 }
 
