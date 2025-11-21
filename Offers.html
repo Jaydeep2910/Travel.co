@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/Travel.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!--Swipper CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!--Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Travel.co | Offers</title>
+  </head>
+  <style>
+    .headr-5 {
+      height: 80vh;
+      background-image: linear-gradient(
+          rgba(45, 92, 132, 0.5),
+          rgba(45, 92, 132, 0.5)
+        ),
+        url("../Images/bg-1.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    body {
+      font-family: "Outfit", sans-serif;
+      margin: 0;
+      background-color: #f0f4f8;
+    }
+    .offers-page {
+      margin-top: 50px;
+    }
+    .offers-page h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .offers-page p {
+      text-align: center;
+      margin-bottom: 4rem;
+      color: #555;
+    }
+    .offer-card {
+      background: #fff;
+      margin: 2rem auto;
+      max-width: 900px;
+      border-radius: 16px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .swiper {
+      height: 300px;
+      width: 100%;
+    }
+    .swiper-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .offer-details {
+      padding: 1.5rem;
+    }
+    .offer-details h2 {
+      color: #457b9d;
+      margin-bottom: 0.5rem;
+    }
+    .offer-details p {
+      margin: 0.5rem 0;
+    }
+    .offer-details button {
+      margin-top: 1.5rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #457b9d;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .offer-details button:hover {
+      background-color: #365d7a;
+    }
+    @media (max-width: 768px) {
+      .offer-card {
+        flex-direction: row;
+        padding: 1rem;
+        max-width: 90%;
+      }
+      .swiper {
+        width: 50%;
+        height: 100%;
+      }
+      .offer-details {
+        width: 50%;
+      }
+    }
+    @media (min-width: 768px) {
+      .offer-card {
+        flex-direction: row;
+      }
+      .swiper {
+        width: 50%;
+        height: 100%;
+      }
+      .offer-details {
+        width: 50%;
+      }
+    }
+  </style>
+  <body>
+    <nav>
+      <div class="nav__logo"><a href="#">Travel.co</a></div>
+      <ul class="nav__links">
+        <li class="link"><a href="Travel.html">Home</a></li>
+        <li class="link"><a href="Blog.html">Blogs</a></li>
+        <li class="link"><a href="Offers.html">Offers</a></li>
+        <li class="link"><a href="Contacts.html">Contacts</a></li>
+        <li class="link"><a href="About Us.html">About Us</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <header>
+      <video autoplay muted loop id="bg-video">
+        <source src="Videos/offers-bg.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </header>
+
+    <section class="offers-page">
+      <h1>🌍 Special Travel Offers</h1>
+      <p>Explore our best deals and destination highlights</p>
+      <!--Offer cards-->
+      <div class="offer-card">
+        <div class="swiper swiper-paris">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="Offer-images/paris-1.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Offer-images/paris-2.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Offer-images/paris-3.jpg" />
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="offer-details">
+          <h2>Paris, France</h2>
+          <p><strong>Offer:</strong> 25% off on 4-night romantic gateway.</p>
+          <p>
+            <strong>Guide:</strong> Visit the Eiffel Tower, Louvre, and
+            Montmartre cafes.
+          </p>
+          <button>Explore</button>
+        </div>
+      </div>
+      <!--Card 2-->
+      <div class="offer-card">
+        <div class="swiper swiper-maldives">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="Offer-images/maldives-1.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Offer-images/maldives-2.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Offer-images/maldives-3.jpg" />
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="offer-details">
+          <h2>Maldives</h2>
+          <p><strong>Offer:</strong> 30% off on all-inclusive beach villas.</p>
+          <p>
+            <strong>Guide:</strong> Visit the Snorkeling, Overwater bungalows,
+            and Spa time.
+          </p>
+          <button>Explore</button>
+        </div>
+      </div>
+      <!--Card 3-->
+      <div class="offer-card">
+        <div class="swiper swiper-goa">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="Offer-images/goa-1.jpg" /></div>
+            <div class="swiper-slide"><img src="Offer-images/goa-2.jpg" /></div>
+            <div class="swiper-slide"><img src="Offer-images/goa-3.jpg" /></div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="offer-details">
+          <h2>Goa, India</h2>
+          <p><strong>Offer:</strong> ₹6,999 beachside stay + local tours.</p>
+          <p>
+            <strong>Guide:</strong> Enjoy beaches, nightlife, and old chruches.
+          </p>
+          <button>Explore</button>
+        </div>
+      </div>
+      <!--Card 4-->
+      <div class="offer-card">
+        <div class="swiper swiper-istanbul">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="Offer-images/istanbul-1.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Offer-images/istanbul-2.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Offer-images/istanbul-3.jpg" />
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="offer-details">
+          <h2>Istanbul, Turkey</h2>
+          <p><strong>Offer:</strong> ₹3,000 off on 3-day historical tour.</p>
+          <p>
+            <strong>Guide:</strong> Visit Hagia Sophia, Blue Mosque, and shop at
+            the Grand Bazzar.
+          </p>
+          <button>Explore</button>
+        </div>
+      </div>
+      <!--Card 5-->
+      <div class="offer-card">
+        <div class="swiper swiper-banff">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="Offer-images/banff-1.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Offer-images/banff-2.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Offer-images/banff-3.jpg" />
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="offer-details">
+          <h2>Banff, Canada</h2>
+          <p>
+            <strong>Offer:</strong> 20% off on 5-day scenic mountain getway.
+          </p>
+          <p>
+            <strong>Guide:</strong> Explore Lake Louise, Banff Gondola, and the
+            Candian Rocks.
+          </p>
+          <button>Explore</button>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <div class="footer__container">
+        <h4>Travel.co</h4>
+        <div class="social__icons">
+          <a class="facebook" href="https://www.facebook.com" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a class="twitter" href="https://www.twitter.com" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a class="instagram" href="https://www.instagram.com" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a class="linkedin" href="https://www.linkedin.com" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a class="youtube" href="https://www.youtube.com" target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </div>
+        <p>
+          <a href="tel:+91 9053292022">+91 1234567890</a>
+        </p>
+        <p>
+          <a href="mailto:mollybone001@gmail.com">mollybone001@gmail.com</a>
+        </p>
+        <p>
+          <a
+            href="https://www.google.com/maps/place/Pinjore, +Haryana"
+            target="_blank"
+            >Pinjore, Haryana</a
+          >
+        </p>
+        <p>
+          Travel ✈️ makes one modest. You see what a tiny place you occupy in
+          the world 🌍.
+        </p>
+        <p style="font-style: normal">
+          &copy; 2025 Travel.co | Designed with ❤️
+        </p>
+      </div>
+    </footer>
+
+    <!-- Load Swiper JS-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--Script -->
+    <script src="script.js"></script>
+  </body>
+</html>

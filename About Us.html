@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/Travel.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Travel.co | About Us</title>
+  </head>
+  <style>
+    body {
+      background-color: whitesmoke;
+      font-family: "Outfit", sans-serif;
+    }
+    .headr-4 {
+      height: 60vh;
+      background-image: linear-gradient(
+          rgba(45, 92, 132, 0.5),
+          rgba(45, 92, 132, 0.5)
+        ),
+        url("../HTML/Images/about-us-bg.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .about-container {
+      max-width: 900px;
+      margin: auto;
+      margin-bottom: 30px;
+      padding: 3rem 1.5rem;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #457b9d;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 1.75rem;
+      color: #457b9d;
+      margin-top: 2rem;
+    }
+    ul {
+      list-style: disc inside;
+      padding-left: 1rem;
+      padding-top: 1rem;
+      padding-bottom: 1.5rem;
+    }
+    .team-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+    .member {
+      flex: 1 1 250px;
+      background: #f7f9fc;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .member:hover{
+      transform: scale(1.04);
+    }
+    .member img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 0.75rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .member h4 {
+      margin: 0.5rem 0;
+      font-size: 1.2rem;
+      color: #1d3557;
+    }
+    .member p {
+      margin: 0;
+      color: #555;
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+  <body>
+    <nav>
+      <div class="nav__logo"><a href="#">Travel.co</a></div>
+      <ul class="nav__links">
+        <li class="link"><a href="Travel.html">Home</a></li>
+        <li class="link"><a href="Blog.html">Blogs</a></li>
+        <li class="link"><a href="Offers.html">Offers</a></li>
+        <li class="link"><a href="Contacts.html">Contacts</a></li>
+        <li class="link"><a href="About Us.html">About Us</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <section class="headr-4"></section>
+
+    <div class="about-container" style="margin-top: 40px">
+      <h1>About Travel.co</h1>
+      <p>
+        At <strong>Travel.co</strong>, we believe travel is not just about
+        ticking off destinations - it's about meaningful experiences, memorable
+        stories, and discovering the world with purpose. Our mission to help you
+        explore the world with confidence, curiosity, and joy.
+      </p>
+
+      <h2>Our Mission</h2>
+      <p>
+        We aim to provide inspiring travel content, hidden gems, and helpful
+        tips to empower both new and seasoned travelers. Whether you're dreaming
+        of ancient temples or sandy beaches, we're here to guide your journey.
+      </p>
+
+      <h2>What We Do</h2>
+      <ul>
+        <li>Publish destination blogs, guides, and stories</li>
+        <li>Share cultural insights and practical travel tips</li>
+        <li>Highlight offbeat locations and must-see places</li>
+      </ul>
+      <!--Team-member card-->
+      <h2>Meet the Team</h2>
+      <div class="team-grid">
+        <div class="member">
+          <img src="Images/mahi.jpg" />
+          <h4>Mahi</h4>
+          <p>Founder & Travel Blogger</p>
+        </div>
+        <div class="member">
+          <img src="Images/arya.jpg" />
+          <h4>Arya</h4>
+          <p>Content Curator</p>
+        </div>
+        <div class="member">
+          <img src="Images/sam.jpg" />
+          <h4>Sam</h4>
+          <p>Photographer & Editor</p>
+        </div>
+        <div class="member">
+          <img src="Images/anika.jpg" />
+          <h4>Anika</h4>
+          <p>Travel Researcher</p>
+        </div>
+        <div class="member">
+          <img src="Images/ravi.jpg" />
+          <h4>Ravi</h4>
+          <p>UI/UX Designer</p>
+        </div>
+        <div class="member">
+          <img src="Images/sana.jpg" />
+          <h4>Sana</h4>
+          <p>Social Media Manager</p>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+    <footer>
+      <div class="footer__container">
+        <h4>Travel.co</h4>
+        <div class="social__icons">
+          <a class="facebook" href="https://www.facebook.com" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a class="twitter" href="https://www.twitter.com" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a class="instagram" href="https://www.instagram.com" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a class="linkedin" href="https://www.linkedin.com" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a class="youtube" href="https://www.youtube.com" target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </div>
+        <p>
+          <a href="tel:+91 9053292022">+91 1234567890</a>
+        </p>
+        <p>
+          <a href="mailto:mollybone001@gmail.com">mollybone001@gmail.com</a>
+        </p>
+        <p>
+          <a
+            href="https://www.google.com/maps/place/Pinjore, +Haryana"
+            target="_blank"
+            >Pinjore, Haryana</a
+          >
+        </p>
+        <p>
+          Travel ✈️ makes one modest. You see what a tiny place you occupy in
+          the world 🌍.
+        </p>
+        <p style="font-style: normal">
+          &copy; 2025 Travel.co | Designed with ❤️
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

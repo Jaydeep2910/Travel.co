@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/Travel.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Travel.co | Contacts</title>
+  </head>
+  <style>
+    .headr-1 {
+      height: 70vh;
+      background-image: linear-gradient(
+          rgba(45, 92, 132, 0.5),
+          rgba(45, 92, 132, 0.5)
+        ),
+        url("../HTML/Images/contact-us-bg-1.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+   
+    body {
+      font-family: "Outfit";
+      background: linear-gradient(#ffdad5, #fff7f9);
+    }
+    .contact-container {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .contact-left {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 20px;
+    }
+    .contact-left-title h2 {
+      font-weight: 600;
+      color: #a363aa;
+      font-size: 40px;
+      margin-bottom: 5px;
+    }
+    .contact-left-title hr {
+      border: none;
+      width: 120px;
+      height: 5px;
+      background-color: #a363aa;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    .contact-inputs {
+      width: 400px;
+      height: 50px;
+      border: none;
+      outline: none;
+      padding-left: 25px;
+      font-weight: 500;
+      color: #666;
+      border-radius: 50px;
+    }
+    .contact-left textarea {
+      height: 140px;
+      padding-top: 15px;
+      border-radius: 20px;
+    }
+    .contact-inputs:focus {
+      border: 2px solid #ff994f;
+    }
+    .contact-inputs::placeholder {
+      color: #a9a9a9;
+    }
+    .contact-left button {
+      display: flex;
+      align-items: center;
+      padding: 15px 30px;
+      font-size: 16px;
+      color: #fff;
+      gap: 10px;
+      border: none;
+      border-radius: 50px;
+      background: linear-gradient(270deg, #ff994f, #fa6d86);
+      cursor: pointer;
+    }
+    .contact-left button img {
+      height: 15px;
+    }
+    .contact-right img {
+      width: 500px;
+    }
+    @media (max-width: 800px) {
+      .contact-inputs {
+        width: 80vw;
+      }
+      .contact-right {
+        display: none;
+      }
+    }
+  </style>
+  <body>
+    <nav>
+      <div class="nav__logo"><a href="#">Travel.co</a></div>
+      <ul class="nav__links">
+        <li class="link"><a href="Travel.html">Home</a></li>
+        <li class="link"><a href="Blog.html">Blogs</a></li>
+        <li class="link"><a href="Offers.html">Offers</a></li>
+        <li class="link"><a href="Contacts.html">Contacts</a></li>
+        <li class="link"><a href="About Us.html">About Us</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <section class="headr-1"></section>
+    <div class="contact-container">
+      <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        class="contact-left"
+      >
+        <div class="contact-left-title">
+          <h2>Get in touch</h2>
+          <hr />
+        </div>
+        <input
+          type="hidden"
+          name="access_key"
+          value="cc6f393b-0194-44b8-856f-80c67ac33dc8"
+        />
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          class="contact-inputs"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          class="contact-inputs"
+          required
+        />
+        <textarea
+          name="message"
+          placeholder="Your Messaage"
+          class="contact-inputs"
+          required
+        ></textarea>
+        <button type="submit">
+          Submit <img src="Images/arrow_icon.png" alt="" />
+        </button>
+      </form>
+      <div class="contact-right">
+        <img src="Images/right_img.png" alt="" />
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer__container">
+        <h4>Travel.co</h4>
+        <div class="social__icons">
+          <a class="facebook" href="https://www.facebook.com" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a class="twitter" href="https://www.twitter.com" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a class="instagram" href="https://www.instagram.com" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a class="linkedin" href="https://www.linkedin.com" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a class="youtube" href="https://www.youtube.com" target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </div>
+        <p>
+          <a href="tel:+91 9053292022">+91 1234567890</a>
+        </p>
+        <p>
+          <a href="mailto:mollybone001@gmail.com">mollybone001@gmail.com</a>
+        </p>
+        <p>
+          <a
+            href="https://www.google.com/maps/place/Pinjore, +Haryana"
+            target="_blank"
+            >Pinjore, Haryana</a
+          >
+        </p>
+        <p>
+          Travel ✈️ makes one modest. You see what a tiny place you occupy in
+          the world 🌍.
+        </p>
+        <p style="font-style: normal">
+          &copy; 2025 Travel.co | Designed with ❤️
+        </p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

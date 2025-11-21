@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/Travel.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Travel.co | Blogs</title>
+  </head>
+  <style>
+    .blog-heading {
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 2rem;
+    }
+    .blog-heading h2 {
+      font-size: 2.5rem;
+      color: #4b0082;
+      margin-bottom: 0.5rem;
+      font-family: "Outfit", sans-serif;
+    }
+    .blog-heading p {
+      font-size: 1rem;
+      color: #555;
+      max-width: 600px;
+      margin: 0 auto;
+      font-family: "Outfit", sans-serif;
+    }
+    .feature-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+      padding: 3rem 5%;
+      background-color: rgba(255, 255, 255, 0.85);
+    }
+    .feature-section .reverse {
+      flex-direction: row-reverse;
+    }
+    .feature-image img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 12px;
+      box-shadow: 0 8px 26px rgba(0, 0, 0, 0.2);
+    }
+    .feature-text {
+      max-width: 500px;
+      font-family: "Outfit", sans-serif;
+    }
+    .feature-text h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #4b0082;
+    }
+    .feature-text p {
+      margin-bottom: 1rem;
+      color: #333;
+    }
+    @media (max-width: 786px) {
+      .feature-section,
+      .feature-section .reverse {
+        text-align: justify;
+        padding: 2rem 1.5rem;
+      }
+      .feature-image img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 12px;
+      }
+      .feature-text h2 {
+        font-size: 1.5rem;
+      }
+      .feature-text p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+  <body>
+    <nav>
+      <div class="nav__logo"><a href="#">Travel.co</a></div>
+      <ul class="nav__links">
+        <li class="link"><a href="Travel.html">Home</a></li>
+        <li class="link"><a href="Blog.html">Blogs</a></li>
+        <li class="link"><a href="Offers.html">Offers</a></li>
+        <li class="link"><a href="Contacts.html">Contacts</a></li>
+        <li class="link"><a href="About Us.html">About Us</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <header class="headr">
+      <div class="section__container">
+        <div class="header__content">
+          <h1>Travel Blogs</h1>
+          <p>
+            Explore our latest travel blogs for tips, guides, and inspiration.
+          </p>
+          <span>
+            Discover the beauty of travel through our curated blogs that offer
+            insights into various destinations, travel tips, and personal
+            experiences.
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <div class="blog-heading">
+      <h2>Our Travel Blogs</h2>
+      <p>
+        Discover breathtaking destinations, travel tips, and personal stories
+        from around the globe.
+      </p>
+    </div>
+
+    <section class="feature-section">
+      <div class="feature-image">
+        <img src="Images/paris.jpeg" alt="Paris" />
+      </div>
+      <div class="feature-text">
+        <h2>Paris, France</h2>
+        <p>
+          The City of Light is a timeless destination filled with romance,
+          history, and world-class cuisine. Explore iconic lankmarks like the
+          Eiffel Tower, Louvre Museum, and a charming cafes along the Seine.
+        </p>
+      </div>
+    </section>
+    <!--Card-2-->
+    <section class="feature-section reverse">
+      <div class="feature-text">
+        <h2>Kyoto, Japan</h2>
+        <p>
+          Step into Japan's rich heritage in Kyoto - Home to ancient temples,
+          traditional tea houses, and ironic cherry blossoms. Form the
+          Arashiyama Bamboo Grove to Fushimi Inari Shrine, every corner is a
+          cultural gem.
+        </p>
+      </div>
+      <div class="feature-image">
+        <img src="Images/kyoto-japan.jpg" alt="kyoto" />
+      </div>
+    </section>
+    <!--Card-3-->
+    <section class="feature-section">
+      <div class="feature-image">
+        <img src="Images/santorini.jpg" alt="Santorini" />
+      </div>
+      <div class="feature-text">
+        <h2>Santorini, Greece</h2>
+        <p>
+          Known for its whitewashed houses and stunning sunsets, Santorini is a
+          dream destination. Stroll through charming cliffside villages, soak in
+          volcanic hot springs, and enjoy fresh seafood by the Aegean Sea.
+        </p>
+      </div>
+    </section>
+    <!--Card-4-->
+    <section class="feature-section reverse">
+      <div class="feature-text">
+        <h2>New-York City, USA</h2>
+        <p>
+          The city never sleeps offers something for everyone - skycrapers,
+          Broadway shows, iconic food, and a cultural landmarks like Times
+          Square, Centeral Park, and the Statue of Liberty.
+        </p>
+      </div>
+      <div class="feature-image">
+        <img src="Images/new-york.jpg" alt="New York" />
+      </div>
+    </section>
+    <!--Card-5-->
+    <section class="feature-section">
+      <div class="feature-image">
+        <img src="Images/kerala.jpg" alt="Paris" />
+      </div>
+      <div class="feature-text">
+        <h2>Kerala, India</h2>
+        <p>
+          From backwaters to emerald tea plantations, Kerala is a tropical
+          paradise in South India. Cruise through houseboat canals, Ayurvedic
+          treatments and expllore the rich culture of traditional dance.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer__container">
+        <h4>Travel.co</h4>
+        <div class="social__icons">
+          <a class="facebook" href="https://www.facebook.com" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a class="twitter" href="https://www.twitter.com" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a class="instagram" href="https://www.instagram.com" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a class="linkedin" href="https://www.linkedin.com" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a class="youtube" href="https://www.youtube.com" target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </div>
+        <p>
+          <a href="tel:+91 9053292022">+91 1234567890</a>
+        </p>
+        <p>
+          <a href="mailto:mollybone001@gmail.com">mollybone001@gmail.com</a>
+        </p>
+        <p>
+          <a
+            href="https://www.google.com/maps/place/Pinjore, +Haryana"
+            target="_blank"
+            >Pinjore, Haryana</a
+          >
+        </p>
+        <p>
+          Travel ✈️ makes one modest. You see what a tiny place you occupy in
+          the world 🌍.
+        </p>
+        <p style="font-style: normal">
+          &copy; 2025 Travel.co | Designed with ❤️
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
