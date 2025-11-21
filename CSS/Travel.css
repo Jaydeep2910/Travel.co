@@ -445,8 +445,10 @@ footer p {
   .display__card p {
     font-size: 0.7rem;
   }
-
-
+  .headr-1 {
+    background-size: contain;
+    height: 70vh;
+  }
 
 }
 
