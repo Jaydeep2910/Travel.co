@@ -450,7 +450,7 @@ footer p {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top ;
-    height: auto;
+    height: 250px;
   }
 }
 
@@ -482,7 +482,7 @@ footer p {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
-    height: auto;
+    height: 300px;
   }
 }
 
