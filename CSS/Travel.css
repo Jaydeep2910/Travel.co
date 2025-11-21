@@ -449,8 +449,8 @@ footer p {
   .headr-1 {
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top center;
-    height: 300px;
+    background-position: top;
+    height: 500px;
   }
 
 }
@@ -482,8 +482,8 @@ footer p {
   .headr-1 {
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top center;
-    height: 300px;
+    background-position: top;
+    height: 500px;
   }
 
 }
