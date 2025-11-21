@@ -450,7 +450,7 @@ footer p {
 
   .headr-1 {
     height: 45vh;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
   }
  
