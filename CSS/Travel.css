@@ -447,10 +447,7 @@ footer p {
   }
 
   .headr-1 {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-    height: 500px;
+    height: 45vh;
   }
 
 }
@@ -480,10 +477,7 @@ footer p {
   }
 
   .headr-1 {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-    height: 500px;
+    height: 500vh;
   }
 
 }
